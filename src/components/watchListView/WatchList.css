@@ -1,0 +1,9 @@
+.watchlist-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.card {
+    margin: 10px;
+}

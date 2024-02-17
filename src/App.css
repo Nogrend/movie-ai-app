@@ -1,0 +1,24 @@
+.header {
+    padding: 8px 50px;
+    background: #0d96c0;
+}
+
+.header-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    padding: 12px;
+    min-height: calc(100vh - (64px + 64.5px));
+}
+
+.header-image {
+    width: 3rem;
+    height: auto;
+}
+
+.footer {
+    text-align: center;
+}
