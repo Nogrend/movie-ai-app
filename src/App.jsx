@@ -1,5 +1,5 @@
 import './App.css'
-import {Card, Layout} from "antd";
+import {Layout} from "antd";
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
 import {Outlet} from "@tanstack/react-router";
 import MovieSearchBar from "./components/movieSearch/MovieSearchBar.jsx";
