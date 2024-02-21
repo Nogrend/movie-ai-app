@@ -1,6 +1,6 @@
 import MovieCard from "./MovieCard.jsx";
 import PropTypes from "prop-types";
-import {List, Row} from "antd";
+import {List} from "antd";
 
 const MovieView = ({movies}) => {
 
@@ -19,14 +19,12 @@ const MovieView = ({movies}) => {
                     lg: 4,
                     xl: 5,
                 }}
-                  dataSource={movies}
-                  renderItem={(movie) => (
-
-                      <List.Item>
-                          <MovieCard title={movie["imdbID"]} movie={movie}/>
-                      </List.Item>
-
-                  )}
+                dataSource={movies}
+                renderItem={(movie) => (
+                    <List.Item>
+                        <MovieCard title={movie["imdbID"]} movie={movie}/>
+                    </List.Item>
+                )}
             />
         </>
     )
