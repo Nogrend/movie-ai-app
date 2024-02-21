@@ -1,7 +1,7 @@
 import './App.css'
 import {Layout} from "antd";
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
-import {Outlet} from "@tanstack/react-router";
+import {Link, Outlet} from "@tanstack/react-router";
 import MovieSearchBar from "./components/movieSearch/MovieSearchBar.jsx";
 
 const {Header, Footer, Content} = Layout
@@ -15,9 +15,9 @@ function App() {
             <Layout className="layout">
                 <Header className="header">
                     <div className="header-div">
-                        <a href="/">
+                        <Link to="/">
                             <img className="header-image" src="/old-movie-camera.svg" alt="Home"/>
-                        </a>
+                        </Link>
                         <MovieSearchBar/>
                     </div>
                 </Header>
