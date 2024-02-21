@@ -13,7 +13,7 @@ const MovieSearchBar = () => {
         <Form onFinish={handleQuery}>
             <Space.Compact>
                 <Form.Item name="search">
-                    <Input placeholder="looking for a film?"/>
+                    <Input placeholder="Looking for a film?"/>
                 </Form.Item>
                 <Form.Item>
                     <Button htmlType="submit">
