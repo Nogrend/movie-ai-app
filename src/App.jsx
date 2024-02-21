@@ -15,7 +15,9 @@ function App() {
             <Layout className="layout">
                 <Header className="header">
                     <div className="header-div">
-                        <img className="header-image" src="/old-movie-camera.svg" alt="Vite"/>
+                        <a href="/">
+                            <img className="header-image" src="/old-movie-camera.svg" alt="Home"/>
+                        </a>
                         <MovieSearchBar/>
                     </div>
                 </Header>
